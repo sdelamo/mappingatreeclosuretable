@@ -1,0 +1,6 @@
+import demo.Comment
+
+model {
+    List<Comment> descendants = []
+}
+json tmpl.comment(descendants)

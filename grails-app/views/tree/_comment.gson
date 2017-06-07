@@ -1,0 +1,10 @@
+import demo.Comment
+
+model {
+    Comment comment
+}
+json {
+    id comment.id
+    author comment.author
+    text comment.comment
+}
